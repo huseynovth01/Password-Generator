@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopy, faRotate } from '@fortawesome/free-solid-svg-icons';
+
 // components
 import Checkbox from './components/checkbox.jsx';
 // style
@@ -52,6 +53,7 @@ function App() {
       </label>
       
         <input
+          style={{ color: 'red' }}
           id="password-length-input"
           type="range"
           min="8"
@@ -67,7 +69,8 @@ function App() {
           <FontAwesomeIcon icon={faCopy} />
         </button>
       </div>
-      <p>{generatedPassword}</p>      
+      <p>{generatedPassword}</p>  
+      <input type='text'></input>  
     </div>
   );
 }

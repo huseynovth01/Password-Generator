@@ -6,4 +6,5 @@ label {
   
   input[type='range'] {
     width: 100%;
+    color: red;
   }
