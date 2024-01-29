@@ -67,8 +67,7 @@ function App() {
           <FontAwesomeIcon icon={faCopy} />
         </button>
       </div>
-      <p>{generatedPassword}</p>
-      
+      <p>{generatedPassword}</p>      
     </div>
   );
 }
